@@ -1,3 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rating-container{
+    min-width: 270px;
+    width: 10%;
+    background-color: aqua;
+}
+
+.thank-you-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    min-width: 270px;
+    width: 10%;
+    background-color: aqua;
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
@@ -5,3 +44,4 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
