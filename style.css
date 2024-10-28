@@ -140,3 +140,18 @@ body{
     color: var(--White) !important;
   }
 
+@media (max-width: 380px){
+    .rating-container{
+        min-width: 0px;
+        width: 90%;
+    }
+    .ratings-to-select span{
+        width: 40px;
+        height: 40px;
+        padding-top:10px;
+        padding-left: 16px ;
+        background-color: var(--ligt-blue);
+        color:var(--Light-Grey);
+        margin: 20px 0 20px;
+    }
+}
