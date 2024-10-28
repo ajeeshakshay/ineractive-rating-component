@@ -12,6 +12,10 @@ body{
     --Very-Dark-Blue: hsl(216, 12%, 8%);
 }
 
+.thank-you-container.hidden {
+    display: none;
+}
+
 .container{
     display: flex;
     align-items: center;
