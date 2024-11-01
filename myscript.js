@@ -8,7 +8,6 @@ let rate = null;
 rating_cards.forEach(function(rating_card){
   rating_card.addEventListener("click", function(e){
     const active = document.querySelector(".checked");
-    console.log("worked");
     
     if (active) {
       active.classList.remove("checked");//un-highlights the previously checked ratings
